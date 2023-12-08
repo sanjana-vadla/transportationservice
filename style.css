@@ -1,0 +1,108 @@
+/* style.css */
+
+/* Reset default styles and set font family */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: palevioletred;
+}
+
+/* Header styling with background color, text color, and padding */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 3px;
+    text-align: left;
+    font-size: xx-large;
+}
+
+/* Navigation bar styling with background color, spacing, and text color */
+nav {
+    background-color: green;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3px;
+    padding: 14px 16px;
+}
+
+/* Styling for navigation links and header links */
+nav a, header a {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+    background-color: #ddd;
+    color:red;
+}
+
+/* Main content styling with padding, maximum width, and centered alignment */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Background styling with full height, image, and cover properties */
+.background {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('./college.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your background image */
+    background-size: cover; /* Ensures the background image covers the entire screen */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat;
+}
+
+/* Form styling with left alignment */
+form {
+    text-align: left;
+}
+
+/* Label styling for form elements */
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input, select, textarea, and button styling */
+form input, form select, form textarea, form button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Button styling with background color, text color, and cursor */
+form button {
+    background-color: blue;
+    color: violet;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hover effect for form button */
+form button:hover {
+    background-color: purple;
+}
+
+/* Global styling for anchor tags with color and transition properties */
+a {
+    color: darkorange; /* Set the text color for normal state */
+    text-decoration: none; /* Remove underline by default */
+    transition: color 0.3s ease; /* Smooth transition for color changes */
+
+    /* Optional: Add additional styles as needed */
+}
+
+/* Hover effect for anchor tags */
+a:hover {
+    color: rgb(153, 212, 137); /* Change the text color on hover */
+}

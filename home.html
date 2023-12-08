@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RideConnect - Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Header section with RideConnect logo linking to the home page -->
+    <header>
+        <a href="home.html">RideConnect</a>
+    </header>
+
+    <!-- Navigation section with links to Home, Sign In, Sign Up, Help, and About Us -->
+    <nav>
+        <!-- Home link in a separate div for potential styling or layout purposes -->
+        <div>
+            <a href="home.html">Home</a>
+        </div>
+        <!-- Links to other pages in a separate div for potential styling or layout purposes -->
+        <div>
+            <a href="signin.html">Sign In</a>
+            <a href="signup.html">Sign Up</a>
+            <a href="help.html">Help</a>
+            <a href="about_us.html">About Us</a>
+        </div>
+    </nav>
+
+    <!-- Main content area with a background div -->
+    <div class="background">
+        <main>
+            <!-- Search form for finding rides -->
+            <form>
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination" required>
+
+                <label for="current_location">Current Location:</label>
+                <input type="text" id="current_location" name="current_location" required>
+
+                <label for="date_of_travel">Date of Travel:</label>
+                <input type="date" id="date_of_travel" name="date_of_travel" required>
+
+                <label for="number_of_people">Number of People:</label>
+                <input type="number" id="number_of_people" name="number_of_people" required>
+
+                <label for="mode_of_transportation">Mode of Transportation:</label>
+                <select id="mode_of_transportation" name="mode_of_transportation">
+                    <option value="car">Car</option>
+                    <option value="bus">Bus</option>
+                    <option value="train">Train</option>
+                </select>
+
+                <!-- Submit button for initiating the search -->
+                <button type="submit">Search</button>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

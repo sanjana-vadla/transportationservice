@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RideConnect - Help</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Header section with RideConnect logo linking to the home page -->
+    <header>
+        <a href="home.html">RideConnect</a>
+    </header>
+
+    <!-- Navigation section with links to Home, Sign In, Sign Up, Help, and About Us -->
+    <nav>
+        <!-- Home link in a separate div for potential styling or layout purposes -->
+        <div>
+            <a href="home.html">Home</a>
+        </div>
+        <!-- Links to other pages in a separate div for potential styling or layout purposes -->
+        <div>
+            <a href="signin.html">Sign In</a>
+            <a href="signup.html">Sign Up</a>
+            <a href="help.html">Help</a>
+            <a href="about_us.html">About Us</a>
+        </div>
+    </nav>
+
+    <!-- Main content area with a background div -->
+    <div class="background">
+        <main>
+            <!-- Help and Support section with a form for assistance -->
+            <h2>Help and Support</h2>
+            <p>If you need assistance, please fill out the form below:</p>
+            
+            <!-- Help form with fields for name, email, and message -->
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+    
+                <!-- Submit button for sending the help request -->
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

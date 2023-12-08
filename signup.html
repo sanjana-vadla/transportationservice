@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RideConnect - Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Header section with RideConnect logo linking to the home page -->
+    <header>
+        <a href="home.html">RideConnect</a>
+    </header>
+
+    <!-- Navigation section with links to Home, Sign In, Sign Up, Help, and About Us -->
+    <nav>
+        <div>
+            <a href="home.html">Home</a>
+        </div>
+        <div>
+            <a href="signin.html">Sign In</a>
+            <a href="signup.html">Sign Up</a>
+            <a href="help.html">Help</a>
+            <a href="about_us.html">About Us</a>
+        </div>
+    </nav>
+
+    <!-- Main content area with a background div -->
+    <div class="background">
+        <main>
+            <!-- Sign Up form -->
+            <h2>Sign Up</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+    
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+    
+                <label for="confirm_password">Confirm Password:</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+    
+                <!-- Redirect to home.html when the button is clicked -->
+                <a href="home.html"><button type="submit">Sign Up</button></a>
+            </form>
+
+            <!-- Link to Sign In page -->
+            <p>Already have an account? <a href="signin.html">Sign In</a></p>
+        </main>
+    </div>
+</body>
+</html>
